@@ -3,6 +3,7 @@ language: php
 sudo: false
 
 php:
+  - '7.0'
   - '7.1'
   - '7.2'
   - master
@@ -13,7 +14,7 @@ before_install:
   - composer clear-cache
 
 install:
-  - composer install
+  - composer update
 
 script:
   - ./vendor/bin/phpunit
