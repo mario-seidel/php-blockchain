@@ -20,7 +20,7 @@
  * IN THE SOFTWARE.
  */
 
-namespace Mx\Blockchain\Test\Entity;
+namespace Mx\Blockchain\Tests\Entity;
 
 use Mx\Blockchain\Entity\Block;
 use Mx\Blockchain\Entity\TextBlockchain\TextBlockData;
